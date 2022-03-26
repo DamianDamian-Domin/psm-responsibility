@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-wrapper">
+            <img class="logo" src="assets/logo.jpg" alt="">
+            <div class="title"> Uniwersytet ekonomiczny w krakowie </div>
+            <div> Zapisy na studia </div>
+        </div>
+        <div class="description-wrapper">
+            Uniwersytet Ekonomiczny w Krakowie – jedna z pięciu polskich państwowych wyższych szkół ekonomicznych. Pod względem liczby studentów, jest największym w Polsce oraz jednym z największych w Europie uniwersytetem poświęconym naukom ekonomicznym, a także piątą co do wielkości uczelnią w Krakowie
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/carousel1.jpg" class="photo d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel2.jpg" class="photo d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel3.jpg" class="photo d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <div class="container kierunki-info">
+            <div class="row">
+                <div class="col-md-4 mt-2">
+                    <h2> Informatyka </h2>
+                    <span> Studiując ten kierunek poznasz przedmioty wchodzące w skład kanonu informatyki, a oprócz tego zyskasz solidne podstawy nauk ekonomicznych. Obok znajomości teoretycznych podstaw informatyki, budowy i zasad działania systemów komputerowych, programowania, baz danych, systemów operacyjnych, sieci komputerowych oraz projektowania systemów informacyjnych, będziesz mógł uzyskać wiedzę z zakresu ekonomii, zarządzania, przedsiębiorczości, rachunkowości czy prawa. Dzięki temu po skończeniu studiów będziesz dobrze rozumieć rzeczywistość gospodarczą i tym samym, z powodzeniem będziesz mógł zarówno projektować, wdrażać, administrować i analizować systemy informatyczne wspierające działalność biznesową, jak również projektować oprogramowanie tworzące systemy informatyczne.</span>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <h2> Administracja </h2>
+                    <span class="">  Kierunek łączy aspekty prawne, ekonomiczne i organizacyjno-zarządcze funkcjonowania administracji.
+                        Wyróżnikiem kierunku jest dostarczanie Studentom wiedzy i umiejętności niezbędnych do skutecznego i profesjonalnego wykonywania zadań, jakie zostały postawione przed współczesną administracją zarówno publiczną, jak i prywatną. Dlatego oferta programowa odzwierciedla interdyscyplinarność
+                        zagadnień i złożoność administracji, wymagającej od swych kadr znajomości zagadnień prawnych, finansowych, organizacyjnych itd. </span>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <h2> Rachunkowość </h2>
+                    <span> Kierunek kształci w zakresie zarządzania, ekonomii i finansów. Absolwent posiada kompetencje niezbędne do zarządzania i pełnienia funkcji menedżerskich oraz sztabowych w przedsiębiorstwach, instytucjach administracyjnych i finansowych oraz do prowadzenia działalności gospodarczej. Studia II stopnia pozwalają rozszerzyć wiedzę o zagadnienia z zakresu współczesnych koncepcji zarządzania, sprawozdawczości, marketingu międzynarodowego, komunikacji międzykulturowej, ekonometrii i analizy statystycznej.</span>
+                </div>
+            </div>
+        </div>
+        <div class="container form-wrapper">
+            <h2> Zapisz się już dziś! </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label">Imię </label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Imię">
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label"> Nazwisko </label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nazwisko">
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label"> E-mail </label>
+                    <input type="mail" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+                </div>
+                <div class="col-md-6 mt-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Wybierz kierunek studiów</option>
+                        <option value="1">Informatyka stosowana</option>
+                        <option value="2">Zarządzanie</option>
+                        <option value="3">Rachunkowość</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <div class="mt-2 form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Stacjonarne
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Niestacjonarne
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Uwagi</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-md-12 buttons-wrapper mt-3">
+                        <button type="button" class="btn btn-success m-2">Zarejestruj</button>
+                        <button type="button" class="btn btn-secondary m-2">Anuluj</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+
+<style>
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.title-wrapper {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.title {
+    font-size: 1.5rem;
+    color: rgb(61, 61, 61);
+}
+.description-wrapper {
+    padding: 2rem;
+}
+.kierunki-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.carousel {
+    margin: 0 5rem;
+}
+.photo {
+    max-height: 30rem;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+</html>
